@@ -1,5 +1,5 @@
 import os, markdown
-from template import get_html_template
+from template import get_html_template,get_html_template1
 
 def generate_site(source_dir='source', output_dir='public'):
     if not os.path.exists(output_dir): os.makedirs(output_dir)
@@ -9,7 +9,8 @@ def generate_site(source_dir='source', output_dir='public'):
                 text = f.read()
             html = markdown.markdown(text)
             title = text.split('\n')[0].strip('# ')
-            full_html = get_html_template(title, html)
+            #full_html = get_html_template(title, html)
+            full_html = get_html_template1(title, html)
             out_file = os.path.join(output_dir, os.path.splitext(filename)[0] + '.html')
             with open(out_file, 'w') as f: f.write(full_html)
             print(f"-> Converted {filename} to {out_file}")
