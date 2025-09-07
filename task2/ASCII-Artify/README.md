@@ -23,8 +23,8 @@ A Python-based tool that converts static images and real-time webcam feed into v
 - FRAME_DELAY # Frame interval in seconds 
 - DEFAULT_ASCII_CHARS # Default ASCII character ramp
 
-## Use instruction/help
-# keyword
+# Use instruction/help
+## keyword
 - You can use the three key words regradless of sequence,and the blank value will be set at default value.
 
 - In other words,if you just use "python main.py", the app will run by default values.
@@ -41,6 +41,6 @@ A Python-based tool that converts static images and real-time webcam feed into v
 - --width 
     - usage: constrain the width of the output picture,and the height will keep same ratio with width
     - template: python main.py --width 100
-# end method
+## end method
 - if path is invalid,the mode will turn to camera read.For this mode,you need to press 'q' as the ending signal for the app.
 - if path is valid and not null. It will end it life automaticly.
