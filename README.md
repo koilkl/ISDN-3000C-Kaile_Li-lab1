@@ -5,7 +5,7 @@ This project converts Markdown files into a static HTML website.
 - The task1 files are in task1 folder
 - The task2 files are in task1 folder
 - info folder is the folder cloned from the repositry
-
+- tutorial folder is stored the tutorial code
 
 ## And below is the change list for task1:
 # For funtions:
