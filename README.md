@@ -1,8 +1,10 @@
 # MarkdownPress - A Simple Static Site Generator
 This project converts Markdown files into a static HTML website.
 
-
-
+Declaim:
+1.The task1 files are in task1 folder
+2.The task2 files are in task1 folder
+3.info folder is the folder cloned from the repositry
 
 
 And below is the change list for task1:
